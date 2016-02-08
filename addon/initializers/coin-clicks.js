@@ -34,7 +34,7 @@ function addCoin(event) {
 		coinCount = 0;
 	}
 	const $img = $('<img>')
-		.attr('src', '/coin-clicks/img/will.gif')
+		.attr('src', '/img/will.gif')
 		.css({
 			position: 'absolute',
 			left: `${event.pageX}px`,
@@ -44,7 +44,7 @@ function addCoin(event) {
 		.appendTo(document.body);
 
 	const $audio = $('<audio>')
-		.attr('src', '/coin-clicks/sounds/llama-scream.wav')
+		.attr('src', '/sounds/llama-scream.wav')
 		.attr('autoplay', true)
 		.appendTo(document.body);
 
