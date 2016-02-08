@@ -1,6 +1,6 @@
 import $ from 'jquery';
 export function initialize(/* container, application */) {
-	
+
 	const stack = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 	let currentStack = stack.slice();
 
@@ -16,7 +16,7 @@ export function initialize(/* container, application */) {
 			currentStack = stack.slice();
 		}
 	});
-	
+
 }
 
 export default {
@@ -34,7 +34,7 @@ function addCoin(event) {
 		coinCount = 0;
 	}
 	const $img = $('<img>')
-		.attr('src', '/coin-clicks/img/coin.gif')
+		.attr('src', '/coin-clicks/img/will.png')
 		.css({
 			position: 'absolute',
 			left: `${event.pageX}px`,
@@ -44,7 +44,7 @@ function addCoin(event) {
 		.appendTo(document.body);
 
 	const $audio = $('<audio>')
-		.attr('src', '/coin-clicks/sounds/coin.wav')
+		.attr('src', '/coin-clicks/sounds/llama-scream.wav')
 		.attr('autoplay', true)
 		.appendTo(document.body);
 
