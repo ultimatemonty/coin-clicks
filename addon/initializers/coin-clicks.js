@@ -34,7 +34,7 @@ function addCoin(event) {
 		coinCount = 0;
 	}
 	const $img = $('<img>')
-		.attr('src', '/coin-clicks/img/will.png')
+		.attr('src', '/coin-clicks/img/will.gif')
 		.css({
 			position: 'absolute',
 			left: `${event.pageX}px`,
